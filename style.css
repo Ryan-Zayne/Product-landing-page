@@ -243,6 +243,8 @@ button{
     padding: 1.5rem 0;
     width: 100%;
     max-width: 30rem;
+    background-color: rgb(245, 144, 29);
+    color: #fff;
     visibility: hidden;
 }
 
@@ -250,7 +252,7 @@ button{
 .product:hover button{
     background-color: rgb(245, 144, 29);
     color: #fff;
-    visibility: unset;
+    visibility: visible;
 }
 
 footer{
@@ -343,6 +345,9 @@ footer span{
     }
 
     
+    button{
+        visibility: visible;
+    }
 
     #form > input[type="email"]{
         max-width: 27rem;
