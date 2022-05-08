@@ -187,6 +187,7 @@ h2{
     width: 100%;
     max-width: 55rem;
     height: 100%;
+    border-radius: 5px;
 }
 
 #pricing{
